@@ -1,0 +1,17 @@
+browser:
+  browser_name: chrome
+  headless: true
+  attach_screenshot: true
+  web_element_timeout: 10
+environment:
+
+  test_int:
+    env_name: test_int
+    app_url: http://146.59.32.4/index.php
+    title: TesterSii
+    active: true
+  test_prod:
+    env_name: test_prod
+    app_url: http://146.59.32.4/index.php
+    title: TesterSii
+    active: false
